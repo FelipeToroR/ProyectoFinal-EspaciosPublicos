@@ -9,7 +9,7 @@ import { PrincipalIComponent } from './principal-i/principal-i.component';
 import { ArtistasIiComponent } from './artistas-ii/artistas-ii.component';
 import { NoticiasIiiComponent } from './noticias-iii/noticias-iii.component';
 import { TeamIvComponent } from './team-iv/team-iv.component';
-
+import { MatDividerModule } from '@angular/material/divider';
 
 @NgModule({
   declarations: [
@@ -22,7 +22,7 @@ import { TeamIvComponent } from './team-iv/team-iv.component';
     TeamIvComponent,
   ],
   imports: [
-    BrowserModule,
+    BrowserModule, MatDividerModule,
     AppRoutingModule,
     NgbModule,
   ],
