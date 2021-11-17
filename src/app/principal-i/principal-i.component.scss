@@ -1,3 +1,8 @@
+@media screen and (max-width: 800px) { 
+ .btn-group-vertical{
+   display: none;
+ }
+}
 .container-fluid{
     display: flex;
     flex-wrap: nowrap;
@@ -37,7 +42,13 @@
   margin-left: 100px;
 }
 .btn-group-vertical{
+
+  position: fixed;
   padding-left: 10px;
+  z-index: 100;
+    .btn-outline-secondary{
+      border-color: black;
+    }
 }
 
 #buscarinput{

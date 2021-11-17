@@ -39,4 +39,15 @@ li.nav-item:hover::after{
 li.nav-item a:hover{
     color: lightseagreen;
 }
+.bg-dark.scrolled {
+    background-color: rgba(134, 137, 146, 0.931) !important;
+    transition: background-color 800ms linear;
+  }
+
+.bg-dark {
+    background:transparent !important;
+    transition:0.5s ease;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
 
